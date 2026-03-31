@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "cat-dessert",
+    "name": "甜品",
+    "sort": 1,
+    "active": true
+  },
+  {
+    "_id": "cat-milk-tea",
+    "name": "奶茶",
+    "sort": 2,
+    "active": true
+  },
+  {
+    "_id": "cat-interaction",
+    "name": "互动",
+    "sort": 3,
+    "active": true
+  },
+  {
+    "_id": "cat-gift",
+    "name": "礼物",
+    "sort": 4,
+    "active": true
+  }
+]

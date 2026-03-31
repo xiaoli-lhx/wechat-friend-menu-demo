@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/menu/index",
+    "pages/orders/index",
+    "pages/profile/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "友情菜单机",
+    "navigationBarBackgroundColor": "#fff7fb",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff7fb",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "position": "top",
+    "color": "#8a7486",
+    "selectedColor": "#ff6ea8",
+    "backgroundColor": "#fffafc",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/menu/index",
+        "text": "点单"
+      },
+      {
+        "pagePath": "pages/orders/index",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}

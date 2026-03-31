@@ -1,0 +1,9 @@
+{
+  "name": "seedMenuData",
+  "version": "1.0.0",
+  "description": "Seed menu categories and menu items into WeChat cloud database",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}

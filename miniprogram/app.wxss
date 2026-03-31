@@ -1,0 +1,49 @@
+page {
+  --bg-color: #fff7fb;
+  --card-bg: #ffffff;
+  --panel-bg: #fff0f6;
+  --line-color: #f7dbe7;
+  --text-main: #5d4255;
+  --text-secondary: #8d7081;
+  --text-light: #b79aae;
+  --accent: #ff6ea8;
+  --accent-deep: #ff4f94;
+  --accent-soft: #ffe6f0;
+  --mint: #e9fff4;
+  min-height: 100%;
+  background: linear-gradient(180deg, #fff8fc 0%, #fff4fa 45%, #fff9fd 100%);
+  color: var(--text-main);
+  font-size: 28rpx;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 24rpx;
+  padding-bottom: 170rpx;
+  box-sizing: border-box;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 2rpx solid rgba(255, 186, 214, 0.45);
+  border-radius: 28rpx;
+  box-shadow: 0 14rpx 40rpx rgba(255, 146, 191, 0.12);
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42rpx;
+  padding: 0 18rpx;
+  border-radius: 999rpx;
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-size: 22rpx;
+}

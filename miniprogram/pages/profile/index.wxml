@@ -1,0 +1,31 @@
+<view class="page">
+  <view class="profile-card card">
+    <image class="avatar" src="{{userProfile.avatarUrl}}" mode="aspectFill"></image>
+    <text class="nickname">{{userProfile.nickName || '还没起名字的饭搭子'}}</text>
+    <text class="uid-text">玩家编号：{{userProfile.id}}</text>
+    <view class="name-editor">
+      <input
+        class="name-input"
+        placeholder="给自己起个更像你的名字"
+        maxlength="12"
+        value="{{draftName}}"
+        bindinput="handleNameInput"
+      />
+      <button class="save-btn" bindtap="handleSaveName">保存名字</button>
+    </view>
+    <button class="light-btn" bindtap="handleRefreshProfile">换个昵称气氛</button>
+  </view>
+
+  <view class="stats-card card">
+    <text class="stats-label">我一共点了多少单</text>
+    <text class="stats-value">{{totalOrders}}</text>
+    <text class="stats-tip">每一单都算数，哪怕只是想和朋友一起玩一会儿。</text>
+  </view>
+
+  <view class="quote-card card">
+    <text class="quote-title">今日文案</text>
+    <text class="quote-text">{{funText}}</text>
+  </view>
+
+  <button class="primary-btn" bindtap="goMenu">回到菜单继续点</button>
+</view>

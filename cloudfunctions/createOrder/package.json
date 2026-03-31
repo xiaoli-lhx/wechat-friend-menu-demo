@@ -1,0 +1,9 @@
+{
+  "name": "createOrder",
+  "version": "1.0.0",
+  "description": "Create toy menu orders in WeChat cloud database",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}

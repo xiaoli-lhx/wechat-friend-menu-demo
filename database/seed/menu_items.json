@@ -1,0 +1,134 @@
+[
+  {
+    "_id": "item-dessert-1",
+    "categoryId": "cat-dessert",
+    "name": "今天想吃冰淇淋",
+    "desc": "一口下去像把烦恼冻住了，适合和朋友一起假装很酷。",
+    "price": 18,
+    "image": "https://dummyimage.com/240x240/fde1ec/8f5a76.png&text=Ice+Cream",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 1
+  },
+  {
+    "_id": "item-dessert-2",
+    "categoryId": "cat-dessert",
+    "name": "草莓云朵小泡芙",
+    "desc": "轻飘飘的奶油心情，吃完会想顺手夸一句今天真可爱。",
+    "price": 22,
+    "image": "https://dummyimage.com/240x240/ffdce8/8f5a76.png&text=Puff",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 2
+  },
+  {
+    "_id": "item-dessert-3",
+    "categoryId": "cat-dessert",
+    "name": "熬夜补偿布丁",
+    "desc": "不是治愈晚睡，是让晚睡这件事看起来没那么亏。",
+    "price": 16,
+    "image": "https://dummyimage.com/240x240/ffe7d4/8f5a76.png&text=Pudding",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 3
+  },
+  {
+    "_id": "item-milk-tea-1",
+    "categoryId": "cat-milk-tea",
+    "name": "再来一杯晚风奶茶",
+    "desc": "珍珠有点黏人，喝起来像朋友说今晚慢一点回家也没关系。",
+    "price": 19,
+    "image": "https://dummyimage.com/240x240/f9e6c9/8f5a76.png&text=Milk+Tea",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 1
+  },
+  {
+    "_id": "item-milk-tea-2",
+    "categoryId": "cat-milk-tea",
+    "name": "焦糖心动波波",
+    "desc": "第一口是甜的，第二口还是甜的，第三口就开始想分享了。",
+    "price": 21,
+    "image": "https://dummyimage.com/240x240/f6dfc8/8f5a76.png&text=Caramel",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 2
+  },
+  {
+    "_id": "item-milk-tea-3",
+    "categoryId": "cat-milk-tea",
+    "name": "桂花小熊拿铁",
+    "desc": "看着很乖，入口有点香，适合边聊天边慢慢喝。",
+    "price": 24,
+    "image": "https://dummyimage.com/240x240/f7e8dd/8f5a76.png&text=Latte",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 3
+  },
+  {
+    "_id": "item-interaction-1",
+    "categoryId": "cat-interaction",
+    "name": "真心话蘸酱薯条",
+    "desc": "每拿一根就要回答一个小问题，适合气氛升温时悄悄上桌。",
+    "price": 12,
+    "image": "https://dummyimage.com/240x240/ffe4c9/8f5a76.png&text=Fries",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 1
+  },
+  {
+    "_id": "item-interaction-2",
+    "categoryId": "cat-interaction",
+    "name": "命运骰子饭团",
+    "desc": "摇到几就做几个夸夸动作，输了的人负责笑场。",
+    "price": 15,
+    "image": "https://dummyimage.com/240x240/e9f5ff/8f5a76.png&text=Rice+Ball",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 2
+  },
+  {
+    "_id": "item-interaction-3",
+    "categoryId": "cat-interaction",
+    "name": "夸夸你一次苏打水",
+    "desc": "点它的人要认真夸别人三句，气泡只是为了制造仪式感。",
+    "price": 13,
+    "image": "https://dummyimage.com/240x240/dff6ff/8f5a76.png&text=Soda",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 3
+  },
+  {
+    "_id": "item-gift-1",
+    "categoryId": "cat-gift",
+    "name": "请你收下这颗小星星",
+    "desc": "适合送给今天状态很棒，或者只是需要一点偏爱的朋友。",
+    "price": 9,
+    "image": "https://dummyimage.com/240x240/fff0b5/8f5a76.png&text=Star",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 1
+  },
+  {
+    "_id": "item-gift-2",
+    "categoryId": "cat-gift",
+    "name": "友情续杯徽章",
+    "desc": "默认佩戴效果是下次见面自动续聊，冷场概率略微下降。",
+    "price": 14,
+    "image": "https://dummyimage.com/240x240/eee8ff/8f5a76.png&text=Badge",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 2
+  },
+  {
+    "_id": "item-gift-3",
+    "categoryId": "cat-gift",
+    "name": "今天你最可爱礼盒",
+    "desc": "礼盒里没有规则，只有一句认真又不尴尬的偏心发言。",
+    "price": 28,
+    "image": "https://dummyimage.com/240x240/ffe6f3/8f5a76.png&text=Gift",
+    "monthlySales": 0,
+    "active": true,
+    "sort": 3
+  }
+]

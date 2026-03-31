@@ -1,0 +1,45 @@
+<view class="page">
+  <view class="page-head">
+    <text class="page-title">我的点单记录</text>
+    <text class="page-subtitle">下拉可以刷新，看看刚才那份快乐有没有记下来。</text>
+  </view>
+
+  <view wx:if="{{loading}}" class="state-card card">
+    <text>订单正在排排坐，请等一会儿。</text>
+  </view>
+
+  <view wx:elif="{{!orders.length}}" class="state-card card">
+    <text class="empty-title">你还没有提交过订单</text>
+    <text class="empty-desc">先去菜单页挑一份顺眼的，把今天的好心情点下来。</text>
+  </view>
+
+  <view wx:else>
+    <view wx:for="{{orders}}" wx:key="_id" class="order-card card">
+      <view class="order-top">
+        <view>
+          <text class="order-time">{{item.displayTime}}</text>
+          <text class="order-user">{{item.userName}}</text>
+        </view>
+        <text class="status-pill {{item.statusClass}}">{{item.status}}</text>
+      </view>
+
+      <text class="order-summary">{{item.summary}}</text>
+
+      <view class="order-bottom">
+        <text class="remark-text">备注：{{item.remark || '今天没有额外的小要求'}}</text>
+        <view class="order-side">
+          <text class="order-price">¥{{item.totalPrice}}</text>
+          <view
+            wx:if="{{item.status === '已提交'}}"
+            class="complete-btn"
+            data-id="{{item._id}}"
+            data-status="{{item.status}}"
+            bindtap="handleCompleteOrder"
+          >
+            {{updatingOrderId === item._id ? '更新中...' : '标记完成'}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

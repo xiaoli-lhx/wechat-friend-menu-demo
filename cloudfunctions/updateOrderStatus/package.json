@@ -1,0 +1,9 @@
+{
+  "name": "updateOrderStatus",
+  "version": "1.0.0",
+  "description": "Update toy menu order status in WeChat cloud database",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}
