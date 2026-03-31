@@ -3,6 +3,7 @@ cloudfunctions/*/node_modules/
 
 project.private.config.json
 project.private.config.user.json
+miniprogram/config/local.js
 
 .DS_Store
 Thumbs.db

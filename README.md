@@ -107,11 +107,29 @@ wechat_js
 
 [miniprogram/config/index.js](D:/download/wechat_js/miniprogram/config/index.js)
 
-填入你的云环境 ID：
+仓库默认使用占位配置。实际本地开发时，推荐新建一个不会提交到 Git 的文件：
+
+`miniprogram/config/local.js`
+
+内容示例：
+
+```js
+module.exports = {
+  cloudConfig: {
+    envId: '你的云环境ID',
+    useCloudMenu: true,
+    useCloudOrder: true
+  }
+};
+```
+
+如果你不想额外建 `local.js`，也可以直接修改 `index.js` 里的默认值。
+
+默认模板如下：
 
 ```js
 const cloudConfig = {
-  envId: '你的云环境ID',
+  envId: 'your-cloud-env-id',
   useCloudMenu: true,
   useCloudOrder: true
 };
